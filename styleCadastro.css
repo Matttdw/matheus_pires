@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./img/Section4.jpg);
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul a li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#menu{
+    background-color: #333;
+    text-align: center;
+    padding: 30px 0px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    transition: padding ease-in-out 0.5s;
+}
+
+#menu.shrink{
+    padding: 10px 0px;
+}
+
+.wallpaper{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.content{
+    text-align: center;
+    font-size: 30px;
+	width: 70%;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	color: #fff;
+	padding: 20px;
+}
+
+.second{
+    font-size: 25px;
+}
+
+main {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(134, 14, 201, 0.3);
+}
+
+main h1 {
+    color: #000000; /* Cor do título */
+    font-size: 24px;
+    text-align: center;
+}
+
+main p {
+    color: #666; /* Cor do texto do parágrafo */
+    font-size: 16px;
+}
+
+/* Estilos para o formulário */
+main form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* Estilos para inputs e selects no formulário */
+main input, select {
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Estilos para campos específicos no formulário */
+main #nome, #email, #Cemail, #endereco {
+    flex-basis: 800px;
+}
+
+main #senha, #confirma, #telefone, #endereco {
+    flex-basis: 300px;
+}
+
+main #cidade, #estado, #cep {
+    flex-basis: 200px;
+}
+
+main #data, #cpf {
+    flex-basis: 100px;
+}
+
+/* Estilos para botões no formulário */
+main button {
+    flex-grow: 1;
+    background-color: #007bff; /* Cor de fundo azul para botões */
+    color: #fff; /* Cor do texto branco */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para botão "Limpar" (reset) */
+main button[type="reset"] {
+    background-color: #61fa3b; /* Cor de fundo verde para botão de reset */
+}
+
+/* Estilos para botão "Enviar" (submit) */
+main button[type="submit"] {
+    background-color: #3ab4fa; /* Cor de fundo azul claro para botão de envio */
+}
+
+/* Efeitos de hover nos botões */
+main button:hover {
+    background-color: #0056b3; /* Cor de fundo azul mais escura no hover */
+}
+
+main button[type="reset"]:hover {
+    background-color: #75f70b; /* Cor de fundo verde mais brilhante no hover */
+}
