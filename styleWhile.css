@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./img/Section4.jpg);
+    overflow-x: hidden;
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul a li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#menu {
+    background-color: #333;
+    text-align: center;
+    padding: 40px 0; /* Remova o padding vertical e ajuste conforme necessário */
+    position: fixed; /* Torna a barra de menu fixa no topo */
+    width: 100%; /* Ocupa a largura total da página */
+    z-index: 1000; /* Coloca a barra de menu acima de outros elementos */
+    transition: padding ease-in-out 0.5s;
+    top: 0; /* Garante que a barra de menu esteja no topo da página */
+}
+
+#menu.cor-normal {
+    background-color: #333; /* Cor padrão do menu */
+}
+
+#menu.changed-color {
+    background-color: #34aeff; /* Nova cor do menu */
+}
+
+#menu.shrink{
+    padding: 10px 0px;
+}
+
+.wallpaper{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.content{
+    text-align: center;
+    font-size: 30px;
+	width: 70%;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	color: #fff;
+	padding: 40px 10px;
+}
+
+.second{
+    font-size: 25px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #34aeff;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 100px; /* Ajuste conforme necessário */
+}
