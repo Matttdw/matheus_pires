@@ -21,7 +21,6 @@ const estado = document.getElementById("estado");
                     cidade.value = "buscando...";
                     estado.value = "buscando...";
 
-//URL: URL: viacep.com.br/ws/01001000/json/?callback=callback_name
             const script = document.createElement("script");
             script.src = `https://viacep.com.br/ws/${cepValido}/json/?callback=retorno`;
                     document.body.appendChild(script);
