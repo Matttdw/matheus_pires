@@ -23,12 +23,12 @@ nav ul a li{
 #menu {
     background-color: #333;
     text-align: center;
-    padding: 40px 0; /* Remova o padding vertical e ajuste conforme necessário */
-    position: fixed; /* Torna a barra de menu fixa no topo */
-    width: 100%; /* Ocupa a largura total da página */
-    z-index: 1000; /* Coloca a barra de menu acima de outros elementos */
+    padding: 40px 0; 
+    position: fixed; 
+    width: 100%; 
+    z-index: 1000;
     transition: padding ease-in-out 0.5s;
-    top: 0; /* Garante que a barra de menu esteja no topo da página */
+    top: 0; 
 }
 
 #menu.cor-normal {
@@ -41,6 +41,17 @@ nav ul a li{
 
 #menu.shrink{
     padding: 10px 0px;
+}
+
+#dynamicList {
+    list-style: none;
+    padding: 0;
+}
+
+#dynamicList li {
+    background-color: #ddd;
+    margin: 5px 0;
+    padding: 10px;
 }
 
 .wallpaper{
